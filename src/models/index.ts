@@ -73,5 +73,6 @@
         custom_genres?: any;
         contributors?: any;
         linked_crews: any[];
-        liked: boolean
+        liked: boolean;
+        commentList: string[]
     }
