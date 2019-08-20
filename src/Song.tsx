@@ -75,7 +75,8 @@ class Song extends React.Component<SongProps, { song: SongModel, showAddComment:
                 />
             ]}
         >
-            <Card.Meta 
+            <Card.Meta
+                style={{marginBottom : '10px'}}
                 avatar={<Avatar src={this.state.song.cover_image_path} />}
                 title={this.state.song.name}
                 description={this.state.song.artist.name}
